@@ -41,7 +41,6 @@ func delInDir(dir string) error {
 		}
 	}
 	if len(entries) > 0 {
-		fmt.Printf("still not empty %v", entries)
 		return nil
 	}
 	fmt.Printf("removed %s\n", dir)
